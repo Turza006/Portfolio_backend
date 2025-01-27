@@ -1,13 +1,13 @@
 const education = [
   {
     degree: 'Bachelor of Science in Computer Science',
-    institution: 'University of Example',
-    year: '2015 - 2019'
+    institution: 'Metropolion University',
+    year: '2017 - 2021'
   },
   {
-    degree: 'AWS Certified Developer - Associate',
-    institution: 'Amazon Web Services',
-    year: '2021'
+    degree: 'Masters in Computer Science and Engineering',
+    institution: 'Leading University',
+    year: '2022-2024'
   }
 ]
 

@@ -1,22 +1,22 @@
 const experiences = [
   {
-    title: 'Senior Backend Developer',
-    company: 'Tech Solutions Inc.',
+    title: 'Backend Developer',
+    company: 'valt',
     period: 'Jan 2021 - Present',
     responsibilities: [
-      'Lead a team of 5 developers in designing and implementing scalable backend solutions',
-      'Optimized database queries resulting in a 40% improvement in API response times',
-      'Implemented CI/CD pipelines using GitHub Actions and AWS CodePipeline'
+      'Collaborated with a team of 60 members, including 10 backend developers, to develop and manage multiple APIs and complex data handling processes',
+      'Integrated various third-party APIs to enhance product functionality and user experience',
+      'Contributed to the development of a successful product by ensuring seamless collaboration across all team members'
     ]
   },
   {
-    title: 'Backend Developer',
-    company: 'Innovative Startups Ltd.',
+    title: 'Junior Backend Developer',
+    company: 'Console.it',
     period: 'Jun 2019 - Dec 2020',
     responsibilities: [
-      'Developed RESTful APIs using Node.js and Express for a social media platform',
-      'Implemented real-time features using Socket.io for a chat application',
-      'Collaborated with frontend developers to integrate APIs and improve user experience'
+      'Managed small to medium client-based projects utilizing Python or JavaScript for backend development with MongoDB',
+      'Designed and implemented RESTful APIs to ensure efficient data communication between client and server',
+      'Collaborated with cross-functional teams to deliver high-quality solutions that meet client requirements'
     ]
   }
 ]

@@ -2,21 +2,29 @@ import Image from 'next/image'
 
 const projects = [
   {
-    title: 'E-commerce API',
-    description: 'Developed a scalable RESTful API for an e-commerce platform using Node.js, Express, and MongoDB.',
+    title: 'Valt Pay',
+    description: 'The project at Valt focuses on providing a comprehensive payment solution designed to enhance the efficiency and security of financial transactions. This platform aims to streamline payment processes for businesses, ensuring that transactions are not only quick but also secure.',
     image: '/placeholder.svg?height=200&width=300',
-    technologies: ['Node.js', 'Express', 'MongoDB', 'JWT'],
-    github: 'https://github.com/username/e-commerce-api',
-    demo: 'https://api.example.com'
+    technologies: ['Node.js', 'Express', 'MongoDB', 'JWT', 'Stripe']
   },
   {
-    title: 'Task Management System',
-    description: 'Built a task management system with real-time updates using Nest.js, TypeScript, and Socket.io.',
-    image: '/placeholder.svg?height=200&width=300',
-    technologies: ['Nest.js', 'TypeScript', 'PostgreSQL', 'Socket.io'],
-    github: 'https://github.com/username/task-management',
-    demo: 'https://tasks.example.com'
+    "title": "Valt Hardware Solutions",
+    "description": "Valt offers a range of hardware products designed to enhance productivity and efficiency in various business environments. Their solutions include advanced devices that integrate seamlessly with existing systems, providing robust performance and reliability.",
+    "image": "/placeholder.svg?height=200&width=300",
+    "technologies": ["Node.js", "Cloud Connectivity", "Redis", "Socket.io", "Mongodb", "Otter"]
   },
+  {
+    "title": "Valt Kitchen Screen",
+    "description": "The Valt Kitchen Screen is an innovative solution designed to streamline kitchen operations by providing real-time updates and easy access to order information. It enhances communication between the front of house and kitchen staff, ensuring that orders are processed efficiently and accurately.",
+    "image": "/placeholder.svg?height=200&width=300",
+    "technologies": ["Node.js", "Redis", "Socket.io", "mongodb"]
+  },
+  {
+    "title": "Darun",
+    "description": "Darun is a review reward system that allows users to provide reviews for any product and earn rewards in return. This platform enables businesses to promote their products effectively while encouraging customer engagement through incentivized feedback.",
+    "image": "/placeholder.svg?height=200&width=300",
+    "technologies": ["Node.js", "Cloud Connectivity", "Redis", "Socket.io", "MongoDB", "Otter"]
+  }
   // Add more projects as needed
 ]
 
@@ -37,10 +45,10 @@ export default function Projects() {
                     <span key={tech} className="bg-blue-600 text-sm rounded-full px-3 py-1">{tech}</span>
                   ))}
                 </div>
-                <div className="flex justify-between">
-                  <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">GitHub</a>
-                  <a href={project.demo} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">Live Demo</a>
-                </div>
+                {/*<div className="flex justify-between">*/}
+                {/*  <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">GitHub</a>*/}
+                {/*  <a href={project.demo} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">Live Demo</a>*/}
+                {/*</div>*/}
               </div>
             </div>
           ))}
