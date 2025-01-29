@@ -82,7 +82,7 @@ const skillCategories: { [key: string]: Skill[] } = {
 
 export default function Skills() {
   return (
-      <section id="skills" className="py-20 bg-gray-800">
+      <section id="skills" className="py-20">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 text-center text-white">Skills</h2>
           {Object.entries(skillCategories).map(([category, skills]) => (
